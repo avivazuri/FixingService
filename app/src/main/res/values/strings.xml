@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">FixingService</string>
+    <string name="name_str">Name:</string>
+    <string name="phone_str">Phone:</string>
+    <string name="email_str">Email:</string>
+    <string name="problem_str">Problem:</string>
+    <string name="pic_str">Take a picture</string>
+    <string name="vid_str">Take a video</string>
+    <string name="continue_str">Continue</string>
+    <string name="date_str">Date:</string>
+    <string name="time_str">Time:</string>
+    <string name="choose_str">Please choose the time of your meeting:</string>
+    <string name="chooseTech_str">Please choose a technician:</string>
+    <string name="finish_str">Finish</string>
+    <string name="meetingDetails_str">Meeting Details:</string>
+    <string name="addToContacts_str">Add us to contacts</string>
+    <string name="call_str">Call us</string>
+    <string name="alarm_str">Set alarm of the meeting</string>
+    <string name="calendar_str">Add meeting to calendar</string>
+    <string name="emailSend_str">Send us an email</string>
+    <string name="error_empty_str">Please fill all the fields</string>
+    <string name="picturesaved_str">Your picture has been saved!</string>
+    <string name="videosaved_str">Your video has been saved!</string>
+    <string name="picvideo_str">Problem\'s documentation:</string>
+    <string-array name="time_array">
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+    </string-array>
+
+    <string-array name="time_array2">
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+    </string-array>
+
+    <string-array name="tech_array">
+        <item>Aviad Cohen</item>
+        <item>Yaniv Levi</item>
+        <item>Lior Menashe</item>
+        <item>Gal Yehushoa</item>
+        <item>Haim Refael</item>
+        <item>Sharon Adam</item>
+    </string-array>
+    <string name="errordate">Please choose a date</string>
+    <string name="technicianname_str">Technician:</string>
+    <string name="subjectEmail_str">FixingService: Technician meeting</string>
+    <string name="home_str">Home</string>
+    <string name="thankyou_str">Thank you!</string>
+    <string name="errorcamera_str">Please take a picture of the problem (video is not mandatory)!</string>
+    <string name="busy_str">Busy now? set an alarm to call us when you\'re free!</string>
+    <string name="set_str">Set</string>
+    <string name="meeting_str">Schedule a technician</string>
+    <string name="click_str">Please click on the clock button after choosing a time</string>
+    <string name="callremind_str">Call to FixingService!</string>
+</resources>

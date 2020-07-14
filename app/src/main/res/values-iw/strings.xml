@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FixingService</string>
+    <string name="name_str">שם:</string>
+    <string name="phone_str">נייד:</string>
+    <string name="email_str">אימייל:</string>
+    <string name="problem_str">הבעיה:</string>
+    <string name="pic_str">צלם תמונה</string>
+    <string name="vid_str">צלם וידאו</string>
+    <string name="continue_str">המשך</string>
+    <string name="time_str">שעה:</string>
+    <string name="date_str">תאריך:</string>
+    <string name="choose_str">אנא בחר את זמן הפגישה המתאים לך:</string>
+    <string name="chooseTech_str">אנא בחר טכנאי:</string>
+    <string name="finish_str">סיום</string>
+    <string name="meetingDetails_str">פרטי הפגישה:</string>
+    <string name="addToContacts_str">הוסף אותנו לאנשי הקשר</string>
+    <string name="call_str">התקשר אלינו</string>
+    <string name="alarm_str">הגדר שעון מעורר לפגישה</string>
+    <string name="calendar_str">הוסף פגישה ליומן</string>
+    <string name="emailSend_str">שלח לנו אימייל</string>
+    <string name="error_empty_str">אנא מלא את כל השדות</string>
+    <string name="picturesaved_str">התמונה שלך נשמרה!</string>
+    <string name="videosaved_str">הוידאו שלך נשמר!</string>
+    <string name="picvideo_str">תיעוד הבעיה:</string>
+    <string-array name="time_array">
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+    </string-array>
+
+    <string-array name="tech_array">
+        <item>אביעד כהן</item>
+        <item>יניב לוי</item>
+        <item>ליאור מנשה</item>
+        <item>גל יהושוע</item>
+        <item>חיים רפאל</item>
+        <item>שרון אדם</item>
+    </string-array>
+    <string name="errordate">אנא בחר תאריך</string>
+    <string name="technicianname_str">טכנאי:</string>
+    <string name="subjectEmail_str">FixingService: פגישה עם טכנאי</string>
+    <string name="home_str">בית</string>
+    <string name="thankyou_str">תודה לך!</string>
+    <string name="errorcamera_str">אנא צלם תמונה של הבעיה (וידאו הוא לא חובה)!</string>
+    <string name="busy_str">עסוק כרגע? קבע שעון מעורר כדי להתקשר אלינו כשאתה פנוי!</string>
+    <string name="set_str">הגדר</string>
+    <string name="meeting_str">הזמן טכנאי</string>
+    <string name="click_str">אנא לחץ על כפתור השעון אחרי בחירת השעה</string>
+    <string name="callremind_str">התקשר לFixingService!</string>
+</resources>

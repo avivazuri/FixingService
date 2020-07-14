@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/picturemain"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/logo2" />
+
+    <Button
+        android:id="@+id/btn_schedule"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttongray"
+        android:text="@string/meeting_str"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_marginTop="70dp">
+
+        <ImageButton
+            android:id="@+id/call_technician"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/call"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/add_contacts"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/crmaddnew"
+            android:scaleType="fitXY" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+        android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/busy_str"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/in_time2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+            <ImageButton
+                android:layout_marginTop="5dp"
+                android:id="@+id/set_alaram"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/clockalarm"
+                android:gravity="center"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="center">
+
+
+
+        </LinearLayout>
+    </LinearLayout>
